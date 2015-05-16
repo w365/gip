@@ -8,3 +8,4 @@ ren "..\Agent\G.ip.txt"  G.ip.txt_backup
 copy /y "%~dp0G.ip.txt" ..\Agent\G.ip.txt
 del "%~dp0G.ip.txt"
 ECHO.&ECHO.已更新完成,请按任意键退出 &PAUSE >NUL 2>NUL
+
